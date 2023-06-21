@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes Profile</title>
+    <link href="https://cdn.jsdelivr.net/npe/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0YzlztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"
+    /> <!--Menggunakan atau meletakkan file CSS didalam website yang akan digunakan -->
+    <link 
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/release/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+    /> <!--Menghubungkan Link Fontawesome untuk penggunaan icon didalam website -->
+
+    <link rel="stylesheet" href="style.css"/> <!--Menghubungkan dalam penggunaan CSS-->
+</head>
+<body>
+    <!--Navigasi-->
+        <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+        > <!--Penggunaan Navigasi dengan warna hitam-->
+            <div class="container">
+                <div class="navbar-brand" href="#">RirinRahmadani Foodies
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-tuggle="collapse"
+                data-bs-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                > <!--Penggunaan Nama Navigasi-->
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#food galery">Food Galery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#drink galery">Drink Galery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#support">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li> <!--Beberapa menu yang terdapat didalam Navigasi-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <style>
+        body {
+            background-color: lemonchiffon;
+        }
+    </style>
+    
+
+<!--Banner-->
+    <div class="container-fluid banner">
+        <div class="container text-center">
+            <h4 class="display-1">Hallo!</h4>
+            <h3 class="display-3">Selamat Datang di Website Saya^.^</h3>
+            <a href="#about">
+                <button type="button" class="btn btn-danger btn-lg">
+                    NEXT
+                </button>
+            </a>
+        </div> <!--Mengatur tampilan banner dengan teks rata tengah, menggunakan M4 dan M3 unutk penulisan dan tombol next untuk melanjutkan ke halaman berikutnya-->
+</div>
+
+<!--About-->
+    <div class="container-fluid about pt-5 pb-5"> <!--Mengatur Padding-->
+        <div class="container text-center">
+            <h2 class="display-3" id="about">About</h2>
+            <p>
+                Berikut adalah penjelasan mengenai makanan, minuman, dan makanan cepat saji.
+            </p>
+
+            <div class="row pt-4"> <!--Mengatur Baris pada layar-->
+            <div class="col-md-4"> <!--Mengatur Grid pada layar-->
+                <span class="lingkaran"><i class="fas fa-utensils fa-4x"></i></span> <!--Meggunakan Icon yang terdapat di menu Fontawesome-->
+                <h3 class="mt-3">Food</h3> <!--Mengatur spasi margin-->
+            <p>
+                Makanan adalah substansi yang dikonsumsi oleh organisme untuk memperoleh energi, nutrisi, dan mempertahankan kehidupan. Makanan dapat berasal dari sumber tumbuhan atau hewan, dan mengandung berbagai zat seperti karbohidrat, protein, lemak, vitamin, dan mineral. Makanan memberikan bahan bakar bagi tubuh, membantu dalam pertumbuhan dan perkembangan, memperbaiki jaringan, dan menjaga kesehatan secara keseluruhan. 
+            </p>
+            <span class="lingkaran"><img src="makanan.jpg" alt="Makanan"></span>
+        </div>
+
+        <div class="col-md-4">
+            <span class="lingkaran"><i class="fal fa-cocktail fa-4x"></i></span>
+            <h3 class="mt-3">Drink</h3>
+            <p>
+                Minuman adalah zat cair yang dikonsumsi oleh manusia untuk memenuhi kebutuhan hidrasi tubuh atau memberikan rasa dan kenikmatan. Minuman dapat berupa air, jus, teh, kopi, minuman ringan, susu, dan minuman beralkohol. Setiap jenis minuman memiliki karakteristik, manfaat, dan dampak kesehatan yang berbeda. Penting untuk memilih minuman yang sesuai dengan kebutuhan tubuh dan mengonsumsinya secara seimbang untuk menjaga kesehatan dan kesejahteraan.
+            </p>
+            <span class="lingkaran"><img src="minuman.jpg" alt="Minuman"></span>
+        </div>
+
+        <div class="col-md-4">
+            <span class="lingkaran"><i class="fal fa-cheeseburger fa-4x"></i></span>
+
+            <h3 class="mt-3">Junk Food</h3>
+            <p>
+                Junk food adalah makanan yang memiliki nilai gizi rendah dan tinggi kalori. Makanan ini sering kali diproses secara intensif, mengandung banyak gula, lemak jenuh, dan bahan tambahan. Contoh junk food meliputi keripik, makanan cepat saji, permen, minuman bersoda, dan makanan ringan komersial. Konsumsi berlebihan junk food dapat berdampak buruk pada kesehatan. Jenis makanan ini umumnya diproses secara intensif dan mengandung banyak gula tambahan, lemak jenuh, garam, dan bahan tambahan lainnya. Junk food seringkali tidak menyediakan nutrisi esensial yang dibutuhkan oleh tubuh untuk fungsi yang optimal. 
+            </p>
+            <span class="lingkaran"><img src="junk food.jpg" alt="Junk Food"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
